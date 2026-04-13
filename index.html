@@ -7,6 +7,57 @@
   <title>Dream One Tours & Travels – Your Trusted Travel Partner in Parangipettai</title>
   <meta name="description"
     content="Dream One Tours & Travels – 5-star rated travel agency in Parangipettai, Tamil Nadu. Flights, Visa, Passport, Tour Packages at unbeatable prices." />
+  
+  <!-- SEO Keywords & Meta Tags -->
+  <meta name="keywords" content="Dream One Tours, Travel Agency Parangipettai, Flight Tickets, Visa Services, Passport Assistance, Tour Packages, Hotel Booking, Umrah Packages, Medical Appointment GAMCA, Tamil Nadu Tours, Dubai Visit Visa, Best Travel Agent" />
+  <meta name="author" content="Dream One Tours & Travels" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dream One Tours & Travels – Your Trusted Travel Partner in Parangipettai" />
+  <meta property="og:description" content="5-star rated travel agency in Parangipettai. Get the best deals on Flights, Visa, Passport, and Tour Packages." />
+  <meta property="og:image" content="/Assests/Logo.jpeg" />
+  <meta property="og:url" content="https://dreamonetours.in/" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dream One Tours & Travels" />
+  <meta name="twitter:description" content="5-star rated travel agency in Parangipettai for all your travel needs." />
+  <meta name="twitter:image" content="/Assests/Logo.jpeg" />
+
+  <!-- Canonical URL (Replace domain with your actual live domain if different) -->
+  <link rel="canonical" href="https://dreamonetours.in/" />
+
+  <!-- Structured Data (JSON-LD) for LocalBusiness / TravelAgency -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "Dream One Tours & Travels",
+    "image": "https://dreamonetours.in/Assests/Logo.jpeg",
+    "description": "Dream One Tours & Travels is a 5-star rated travel agency in Parangipettai offering Flights, Visa, Passport assistance, and Tour Packages.",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "NO:1 Logaiya Nayidu, Periyakadai Street, Opp Navabpalli Line",
+      "addressLocality": "Parangipettai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "608502",
+      "addressCountry": "IN"
+    },
+    "telephone": "+919003720208",
+    "email": "dreamonetours@gmail.com",
+    "url": "https://dreamonetours.in",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
@@ -288,6 +339,9 @@
             <li><a href="https://www.instagram.com/dream_one_tours/" target="_blank" rel="noopener noreferrer">📸 Follow
                 on Instagram</a>
             </li>
+            <li><a href="https://www.facebook.com/DreamOneTours/" target="_blank" rel="noopener noreferrer">🔗
+                Facebook</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -335,12 +389,12 @@
     // Services
     var services = [
       {
-        icon: '<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/></svg>', label: 'Degree Attestation', detail: 'For All Countries'
+        icon: '<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/></svg>', label: 'Certificate Attestation', detail: 'For All Countries'
       },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>', label: 'Holiday Packages', detail: 'Global Destinations' },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>', label: 'Flight Tickets', detail: 'Domestic & International' },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m3 15 2 2 4-4"/></svg>', label: 'Visa Stamping', detail: 'All Countries' },
-      { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>', label: 'Medical Appointment', detail: 'Hassle-Free' },
+      { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>', label: 'Medical Appointment', detail: 'GAMCA' },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>', label: 'Umrah & Hajj', detail: 'Premium Packages' },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>', label: 'Tour Packages', detail: 'Custom Itineraries' },
       { icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/><path d="m9 16 .348-.24c1.465-1.013 3.84-4.02 3.848-6.139A2.207 2.207 0 0 0 11 7.53a2.207 2.207 0 0 0-2.2 2.09c-.004 2.123 2.39 5.128 3.848 6.14L13 16"/></svg>', label: 'Hotel Booking', detail: 'Best Rates' },
